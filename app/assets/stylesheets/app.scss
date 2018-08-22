@@ -1,0 +1,71 @@
+@import 'variables';
+@import 'vendor';
+@import 'fonts';
+@import 'mixin';
+html, body{
+  min-width: 320px;
+}
+body{
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.2;
+  font-family: $default-font;
+  overflow-x: hidden;
+  opacity: 1;
+  color: $blue;
+  background-color: #fbfbfd;
+  padding-top: 110px;
+  @include bp(md){
+    padding-top: 170px;
+  }
+  @include bp(xs){
+    padding-top: 135px;
+  }
+}
+section{
+  overflow-x: hidden;
+  width: 100%;
+}
+ul, li{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4{
+  margin: 0;
+}
+*{
+  outline: none !important;
+  &:focus{
+    outline: none !important;
+  }
+}
+::placeholder{
+  font-size: 16px;
+  color: #666666;
+}
+
+#fca_phone_div {
+  left: 50px;
+}
+
+// Шапка
+@import 'header';
+
+// экраны 1-10
+@import 'section-1';
+@import 'section-2';
+@import 'section-3';
+@import 'section-4';
+@import 'section-5';
+@import 'section-6';
+@import 'section-7';
+@import 'section-8';
+@import 'thanks';
+
+// Подвал
+@import 'footer';
+
+// модальные окна
+@import 'popups';

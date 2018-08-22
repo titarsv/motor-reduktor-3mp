@@ -1,0 +1,145 @@
+.section-2{
+  h2{
+    font-size: 29px;
+    color: #0957a4;
+    text-align: center;
+    margin: 75px 0 40px;
+    font-weight: 600;
+    @include bp(sm){
+      margin-top: 30px;
+    }
+  }
+  .item{
+    border: 6px solid #f0f0f0;
+    text-align: center;
+    padding: 30px 10px 20px;
+    margin: 0 auto 40px;
+    max-width: 400px;
+    &:hover{
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    h4{
+      font-size: 20px;
+      font-weight: 600;
+      height: 44px;
+    }
+    img{
+      margin: 30px 0;
+      max-width: 100%;
+      cursor: pointer;
+      height: 233px;
+      object-fit: cover;
+    }
+    ul{
+      font-size: 14px;
+      list-style: none;
+      text-align: left;
+      @include bp(lg){
+        font-size: 12px;
+      }
+      li{
+        margin-bottom: 5px;
+        &:before{
+          content: "";
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          background-color: #0957a4;
+          border-radius: 50%;
+          margin: 0 10px 0 5px;
+        }
+      }
+    }
+    span{
+      font-size: 22px;
+      font-weight: 600;
+      color: #f1a116;
+      display: block;
+      margin: 15px 0;
+    }
+    div{
+      display: flex;
+      justify-content: space-between;
+      button{
+        font-size: 16px;
+        color: #fff;
+        width: calc(50% - 5px);
+        border: none;
+        background-color: #0957a4;
+        padding: 12px 0;
+        text-transform: uppercase;
+        + button{
+          background-color: #f1a116;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+.popup-slider-nav1.slick-vertical{
+  .slick-arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: no-repeat;
+    font-size: 0;
+    color: transparent;
+    text-align: center;
+    padding: 0;
+    z-index: 1;
+    left: 45%;;
+    border: none;
+    &::before{
+      content: "";
+      display: inline-block;
+      border-top: 3px solid #101431;
+      border-left: 3px solid #101431;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .slick-prev{
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .slick-next{
+    bottom: 0;
+    transform: rotate(-135deg);
+  }
+}
+
+.popup-slider-nav1{
+  @include bp (md){
+    .slick-arrow{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background: no-repeat;
+      font-size: 0;
+      color: transparent;
+      text-align: center;
+      padding: 0;
+      z-index: 1;
+      left: 45%;;
+      border: none;
+      &::before{
+        content: "";
+        display: inline-block;
+        border-top: 3px solid #101431;
+        border-left: 3px solid #101431;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .slick-prev{
+      top: calc(50% - 15px);
+      left: 0;
+      transform: rotate(-45deg);
+    }
+    .slick-next{
+     top: calc(50% - 15px);
+     left: 95%;
+      transform: rotate(-226deg);
+    }
+  }
+}

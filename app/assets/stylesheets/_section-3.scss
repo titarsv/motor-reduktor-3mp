@@ -1,0 +1,51 @@
+.section-3{
+  background: center url(../images/s3.jpg) no-repeat;
+  height: 370px;
+  padding: 56px 0;
+  overflow: hidden;
+  @include bp(sm){
+    padding: 20px 0;
+    height: auto;
+    background-size: auto 100%;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    @include bp(sm){
+      display: block;
+    }
+  }
+  h2{
+    font-size: 30px;
+    font-weight: 600;
+    @include bp(sm){
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    b{
+      background-color: #ffce1b;
+      padding: 0 8px;
+      margin: 0 -8px;
+    }
+    @include bp(lg){
+      font-size: 25px;
+      b{
+        padding: 0 8px;
+        margin: 0 -8px;
+      }
+    }
+  }
+  .main-form {
+    max-width: 400px;
+    float: none;
+    margin: 0 auto;
+    border-color: #0957a4;
+  }
+  .main-form__input{
+    background-color: #fff;
+    border: 1px solid #0957a4;
+  }
+  .main-form__btn + span{
+    color: #0957a4;
+  }
+}

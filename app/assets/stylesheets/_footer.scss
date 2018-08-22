@@ -1,0 +1,80 @@
+.main-footer{
+  background-color: #fff;
+  //  position: fixed;
+  //  left: 0;
+  //  right: 0;
+  //  top: 0;
+  //  z-index: 200;
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include bp(md){
+      flex-wrap: wrap;
+      > div {
+        width: calc(50% - 10px);
+      }
+    }
+    @include bp(xs){
+      text-align: center;
+      > div {
+        width:100%;
+        display: none;
+        &:first-child, &:last-child{
+          display: block;
+        }
+      }
+    }
+    p{
+      font-size: 14px;
+      font-weight: 100;
+      @include bp(md){
+        padding: 19px 0 0;
+        display: block;
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .logo{
+      padding: 15px 0;
+      max-width: 100%;
+      @include bp(lg){
+        max-width: 90%;
+      }
+      @include bp(md){
+        max-width: 100%;
+        padding: 10px 0 0;
+      }
+    }
+    .contacts{
+      font-size: 14px;
+      font-weight: 100;
+      @include bp(md){
+        font-size: 12px;
+      }
+      li{
+        margin: 5px 0;
+        img{
+          width: 20px;
+          height: 20px;
+          object-fit: contain;
+        }
+      }
+    }
+    .phones{
+      @include bp(md){
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      span{
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+        text-align: center;
+        @include bp(md){
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

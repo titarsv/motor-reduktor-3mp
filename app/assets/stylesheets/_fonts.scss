@@ -1,0 +1,9 @@
+@import 'mixin';
+
+@include font-face("OpenSansRegular", "../fonts/OpenSansRegular/OpenSansRegular");
+@include font-face("OpenSansBold", "../fonts/OpenSansBold/OpenSansBold");
+@include font-face("OpenSansSemiBold", "../fonts/OpenSansSemiBold/OpenSansSemiBold");
+@include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNova-Bold", 600);
+@include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaCond-Reg", 300);
+@include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNova-Light", 100);
+@include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNova-Reg", 400);

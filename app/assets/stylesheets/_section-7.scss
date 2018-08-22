@@ -1,0 +1,61 @@
+.section-7{
+  background: center url(../images/s7.png) no-repeat;
+  padding: 26px 0;
+  color: #fff;
+  @include bp(sm){
+    background-size: auto 100%;
+  }
+  .main-form {
+    @include bp(xs){
+      padding: 30px 20px;
+    }
+  }
+  .main-form__title{
+    background-color: #ffce1b;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: #000;
+    display: inline-block;
+  }
+  .main-form__descr{
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .more{
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .main-form__fields{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+    @include bp(md){
+      padding: 0;
+    }
+    @include bp(sm){
+      flex-flow: column;
+    }
+    .main-form__input{
+      background-color: #fff;
+      border: 1px solid #0957a4;
+      color: #000;
+//      &::placeholder{
+//        color: #fff;
+//      }
+    }
+    .main-form__btn{
+      white-space: nowrap;
+      background-color: #fff;
+      margin: 0;
+      padding: 0 8px;
+      @include bp(md){
+        font-size: 14px;
+      }
+      &:after {
+        border-color: #fff;
+      }
+    }
+  }
+}

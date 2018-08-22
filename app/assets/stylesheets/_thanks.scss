@@ -1,0 +1,39 @@
+.thanks{
+  text-align: center;
+  padding: 80px 0;
+  .col-xs-12{
+    > img{
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+    h1{
+      text-transform: uppercase;
+      font-size: 36px;
+      margin-bottom: 30px;
+      @include bp(xs){
+        font-size: 22px;
+      }
+    }
+    p{
+      font-size: 23px;
+      margin-bottom: 30px;
+      @include bp(xs){
+        font-size: 16px;
+      }
+    }
+    a{
+      display: inline-block;
+      background-color: #f1a116;
+      padding: 20px;
+      font-size: 23px;
+      color: #fff;
+      text-decoration: none;
+      @include bp(xs){
+        font-size: 16px;
+      }
+      img{
+        margin-right: 10px;
+      }
+    }
+  }
+}

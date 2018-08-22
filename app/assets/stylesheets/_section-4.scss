@@ -1,0 +1,179 @@
+.section-4{
+  background: center url(../images/s4.jpg) no-repeat;
+  padding: 26px 0;
+  .slick-slider{
+    position: relative;
+    margin: 0 -30px;
+    .item{
+      display: flex !important;
+      border: 4px solid #fff;
+      margin: 30px;
+      width: calc(100% - 60px) !important;
+      @include bp(sm){
+        flex-flow: column;
+      }
+      .img{
+        width: 26%;
+        background-color: #fff;
+        text-align: center;
+        padding: 58px 14px 58px 10px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        @include bp(sm){
+          width: 100%;
+          padding: 15px;
+        }
+        img{
+          max-width: 100%;
+          @include bp(sm){
+            margin: 0 auto;
+          }
+        }
+        span{
+          position: absolute;
+          top: -30px;
+          left: -30px;
+          font-weight: 600;
+          font-size: 21px;
+          color: #fff;
+          background-color: #f1a116;
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: block;
+            border-radius: 50%;
+            border: 1px solid #f1a116;
+            top: 4px;
+            left: 4px;
+          }
+        }
+      }
+      .content{
+        width: 74%;
+        padding: 45px 78px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        @include bp(lg){
+          padding: 40px 50px;
+        }
+        @include bp(md){
+          padding: 35px 40px;
+        }
+        @include bp(sm){
+          width: 100%;
+          padding: 20px;
+        }
+        h4{
+          background-color: #ffce1b;
+          font-size: 44px;
+          font-weight: 600;
+          padding: 5px 10px;
+          @include bp(lg){
+            font-size: 36px;
+          }
+          @include bp(md){
+            font-size: 28px;
+          }
+          @include bp(sm){
+            font-size: 25px;
+          }
+          @include bp(xs){
+            font-size: 22px;
+          }
+        }
+        .sale{
+          font-size: 27px;
+          display: block;
+          color: #fff;
+          text-decoration: line-through;
+          @include bp(lg){
+            font-size: 25px;
+          }
+          @include bp(md){
+            font-size: 22px;
+          }
+          @include bp(sm){
+            font-size: 20px;
+          }
+          @include bp(xs){
+            font-size: 18px;
+          }
+        }
+        .price{
+          font-size: 57px;
+          display: block;
+          color: #f1a116;
+          line-height: 0.8;
+          font-weight: 600;
+          @include bp(lg){
+            font-size: 50px;
+          }
+          @include bp(md){
+            font-size: 42px;
+          }
+          @include bp(sm){
+            font-size: 36px;
+          }
+          @include bp(xs){
+            font-size: 32px;
+          }
+        }
+      }
+    }
+    .slick-arrow{
+      @include centering-y;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: no-repeat;
+      border: 3px solid #fff;
+      font-size: 0;
+      color: transparent;
+      text-align: center;
+      padding: 0;
+      z-index: 1;
+      &:before{
+        content: "";
+        display: inline-block;
+        border-top: 3px solid #fff;
+        border-left: 3px solid #fff;
+        width: 10px;
+        height: 10px;
+      }
+      &.slick-prev{
+        left: -50px;
+        @include bp(sm){
+          left: -20px;
+        }
+        @include bp(xs){
+          left: -8px;
+        }
+        &:before{
+          transform: rotate(-45deg) translate(1px, 1px);
+        }
+      }
+      &.slick-next{
+        right: -50px;
+        @include bp(sm){
+          right: -20px;
+        }
+        @include bp(xs){
+          right: -8px;
+        }
+        &:before{
+          transform: rotate(135deg) translate(1px, 1px);
+        }
+      }
+    }
+  }
+}
