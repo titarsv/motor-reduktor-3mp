@@ -56,7 +56,7 @@ module.exports = function(_path, ENV) {
     // modules resolvers
     module: {
       loaders: [
-        { test: /\.html$/, loaders: [ 'html-loader?attrs=img:src link:href img:data-src span:data-src img:data-mfp-src a:data-mfp-src  source:src img:data-lazy', 'purifycss-loader' ] },
+        { test: /\.html$/, loaders: [ 'html-loader?attrs=img:src link:href img:data-src img:data-mfp-src a:data-mfp-src span:data-src  source:src img:data-lazy', 'purifycss-loader' ] },
         { loader: 'babel',
           test: /\.js$/,
           query: {
@@ -114,13 +114,6 @@ module.exports = function(_path, ENV) {
       template: path.join(_path, 'app', 'assets', 'templates', 'layouts', 'index.html')
     });
 
-    webpackConfig.plugins[webpackConfig.plugins.length] = new HtmlPlugin({
-      title: 'Landing',
-      chunks: ['application', 'vendors'],
-      filename: 'thanks.html',
-      template: path.join(_path, 'app', 'assets', 'templates', 'layouts', 'thanks.html')
-    });
-
     webpackConfig.module.loaders[webpackConfig.module.loaders.length] = {
       test: /\.scss$/,
       loader: TextPlugin.extract('style', 'css!sass!')
@@ -167,13 +160,6 @@ module.exports = function(_path, ENV) {
       chunks: ['application', 'vendors'],
       filename: 'index.html',
       template: path.join(_path, 'app', 'assets', 'templates', 'layouts', 'index.html')
-    });
-
-    webpackConfig.plugins[webpackConfig.plugins.length] = new HtmlPlugin({
-      title: 'Landing',
-      chunks: ['application', 'vendors'],
-      filename: 'thanks.html',
-      template: path.join(_path, 'app', 'assets', 'templates', 'layouts', 'thanks.html')
     });
 
     webpackConfig.module.loaders[webpackConfig.module.loaders.length] = {

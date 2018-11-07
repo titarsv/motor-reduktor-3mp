@@ -81,4 +81,13 @@ $(function () {
             dataLayer.push({'event': 'checkout'});
         }
     });
+
+
+    var siteUrl = window.location;
+    $('.prod-item').click( function() {
+        window.location.hash += $(this).data('url');
+    });
+    $('.popup-btn').on('close', function() {
+        console.log('Popup opened',  $.magnificPopup.instance);
+      });
 });

@@ -132,11 +132,12 @@
             <div class="col-sm-6 col-md-5 col-lg-4">
                 <form class="main-form pbz_form clear-styles" data-error-title="Ошибка отправки!"
                       data-error-message="Попробуйте отправить заявку через некоторое время."
-                      data-success-redirect="/thanks.html">
+                      data-success-title="Спасибо за заявку!"
+                      data-success-message="Наш менеджер свяжется с вами в ближайшее время.">
                     <input type="hidden" name="tagmanager" value="/form.html">
 
-                    <div class="main-form__title">Скачайте прайс</div>
-                    <span class="main-form__descr">с акционными ценами</span>
+                    <div class="main-form__title">Скачайте каталог</div>
+                    <!-- <span class="main-form__descr">с акционными ценами</span> -->
                     <ul class="main-form__fields">
                         <li class="main-form__composition">
                             <input type="text" name="phone" class="main-form__input" placeholder="Ваш телефон"
@@ -144,7 +145,7 @@
                                    data-title="Телефон">
                         </li>
                         <li class="main-form__composition">
-                            <button class="main-form__btn">Скачать прайс</button>
+                            <button class="main-form__btn">Скачать каталог</button>
                             <span>* Скидки до 10%</span>
                         </li>
                     </ul>
@@ -165,7 +166,7 @@
                         <div class="img">
                             <img src="../../images/stopwatch.png" alt=""/>
                         </div>
-                        <span>Доставка по Украине за 24 часа</span>
+                        <span>Доставка по Украине за 48 часов</span>
                     </li>
                     <li>
                         <img src="../../images/ukrainian.png" alt=""/>
@@ -314,7 +315,7 @@
                 <h2>Каталог продукции GlobalProm</h2>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-25-4MP-25">
                     <h4>Мотор-редуктор 3МП-25, 4МП-25</h4>
                     <img src="../../images/products/prod1.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup1"/>
                     <ul>
@@ -322,16 +323,17 @@
                         <li>Мощность двигателя <b>от 0,12 до 2,2 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 95%</b></li>
                     </ul>
-                    <span>4 000 грн</span>
+                    <span>от 5 700 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup1">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#product-popup1">подробнее</button>-->
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-31.5-4MP-31.5">
                     <h4>Мотор-редуктор 3МП- 31.5, 4МП- 31.5</h4>
                     <img src="../../images/products/prod2.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup2"/>
                     <ul>
@@ -339,16 +341,16 @@
                         <li>Мощность двигателя <b>от 0,18 до 5,5 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 96%</b></li>
                     </ul>
-                    <span>4 400 грн</span>
+                    <span>от 6 400 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup2">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-40-4MP-40">
                     <h4>Мотор-редуктор 3МП-40, 4МП-40</h4>
                     <img src="../../images/products/prod3.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup3"/>
                     <ul>
@@ -356,16 +358,16 @@
                         <li>Мощность двигателя <b>от 0,18 до 11 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 96%</b></li>
                     </ul>
-                    <span>5 300 грн</span>
+                    <span>от 7 600 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup3">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-50-4MP-50">
                     <h4>Мотор-редуктор 3МП-50, 4МП-50</h4>
                     <img src="../../images/products/prod4.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup4"/>
                     <ul>
@@ -373,16 +375,16 @@
                         <li>Мощность двигателя <b>от 0,18 до 11 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 96%</b></li>
                     </ul>
-                    <span>6 900 грн</span>
+                    <span>от 10 300 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup4">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-63-4MP-63">
                     <h4>Мотор-редуктор 3МП-63, 4МП-63</h4>
                     <img src="../../images/products/prod5.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup5"/>
                     <ul>
@@ -390,16 +392,16 @@
                         <li>Мощность двигателя <b>от 0,37 до 37 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 95%</b></li>
                     </ul>
-                    <span>17 400 грн</span>
+                    <span>от 24 030 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup5">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-80-4MP-80">
                     <h4>Мотор-редуктор 3МП-80, 4МП-80</h4>
                     <img src="../../images/products/prod6.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup6"/>
                     <ul>
@@ -407,16 +409,16 @@
                         <li>Мощность двигателя <b>от 0,75 до 45 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 96%</b></li>
                     </ul>
-                    <span>27 200 грн</span>
+                    <span>от 27 200 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup6">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-100-4MP-100">
                     <h4>Мотор-редуктор 3МП-100, 4МП-100</h4>
                     <img src="../../images/products/prod7.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup7"/>
                     <ul>
@@ -424,16 +426,16 @@
                         <li>Мощность двигателя <b>от 1,1 до 90 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 96%</b></li>
                     </ul>
-                    <span>62 900 грн</span>
+                    <span>от 62 900 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup7">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-3MP-125-4MP-125">
                     <h4>Мотор-редуктор 3МП-125, 4МП-125</h4>
                     <img src="../../images/products/prod8.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup8"/>
                     <ul>
@@ -441,16 +443,16 @@
                         <li>Мощность двигателя <b>от 2,2 до 132 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 96%</b></li>
                     </ul>
-                    <span>106 300 грн</span>
+                    <span>от 106 300 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup8">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-planetarniy-MR">
                     <h4>Мотор-редуктор планетарный МР</h4>
                     <img src="../../images/products/prod91.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup9"/>
                     <ul>
@@ -458,16 +460,16 @@
                         <li>Мощность двигателя <b>до 132 кВт</b></li>
                         <li>Рабочая температура <b>от -40 до +40 0 С</b></li>
                     </ul>
-                    <span>от 16000 грн</span>
+                    <span>от 54 720 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup9">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
             <div class="col-md-offset-4 col-sm-6 col-md-4">
-                <div class="item">
+                <div class="item prod-item" data-url="motor-reductor-planetarniy-MPO">
                     <h4>Мотор-редуктор планетарный МПО</h4>
                     <img src="../../images/products/prod101.jpg" alt="" class="popup-btn" data-mfp-src="#product-popup10"/>
                     <ul>
@@ -475,11 +477,11 @@
                         <li>Мощность двигателя <b>до 15 кВт</b></li>
                         <li>Коэффициент полезного действия <b>от 95%</b></li>
                     </ul>
-                    <span>от 9000 грн</span>
+                    <span>от 15 840 грн</span>
 
                     <div>
-                        <button class="popup-btn" data-mfp-src="#product-popup10">подробнее</button>
-                        <button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>
+                        <button class="popup-btn" data-mfp-src="#order-popup">подробнее</button>
+                        <!--<button class="popup-btn" data-mfp-src="#order-popup">Заказать</button>-->
                     </div>
                 </div>
             </div>
@@ -713,7 +715,7 @@
 </footer>
 
 <ul class="sidebar">
-    <li><a class="popup-btn" data-mfp-src="#product-popup1" href="">3Мп, 4Мп-25</a></li>
+    <!-- <li><a class="popup-btn" data-mfp-src="#product-popup1" href="">3Мп, 4Мп-25</a></li>
     <li><a class="popup-btn" data-mfp-src="#product-popup2" href="">3Мп, 4Мп-31,5</a></li>
     <li><a class="popup-btn" data-mfp-src="#product-popup3" href="">3Мп, 4Мп-40</a></li>
     <li><a class="popup-btn" data-mfp-src="#product-popup4" href="">3Мп, 4Мп-50</a></li>
@@ -722,7 +724,17 @@
     <li><a class="popup-btn" data-mfp-src="#product-popup7" href="">3Мп, 4Мп-100</a></li>
     <li><a class="popup-btn" data-mfp-src="#product-popup8" href="">3Мп, 4Мп-125</a></li>
     <li><a class="popup-btn" data-mfp-src="#product-popup9" href="">МР</a></li>
-    <li><a class="popup-btn" data-mfp-src="#product-popup10" href="">МПО</a></li>
+    <li><a class="popup-btn" data-mfp-src="#product-popup10" href="">МПО</a></li> -->
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-25-4MP-25" data-mfp-src="#product-popup1" href="">3Мп, 4Мп-25</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-31.5-4MP-31.5" data-mfp-src="#product-popup2" href="">3Мп, 4Мп-31,5</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-40-4MP-40" data-mfp-src="#product-popup3" href="">3Мп, 4Мп-40</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-50-4MP-50" data-mfp-src="#product-popup4" href="">3Мп, 4Мп-50</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-63-4MP-63" data-mfp-src="#product-popup5" href="">3Мп, 4Мп-63</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-80-4MP-80" data-mfp-src="#product-popup6" href="">3Мп, 4Мп-80</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-100-4MP-100" data-mfp-src="#product-popup7" href="">3Мп, 4Мп-100</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-3MP-125-4MP-125" data-mfp-src="#product-popup8" href="">3Мп, 4Мп-125</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-planetarniy-MR" data-mfp-src="#product-popup9" href="">МР</a></li>
+    <li><a class="popup-btn prod-item" data-url="motor-reductor-planetarniy-MPO" data-mfp-src="#product-popup10" href="">МПО</a></li>
 </ul>
 
 <div class="mfp-hide callback-popup">
@@ -751,132 +763,15 @@
 
 <div class="mfp-hide product-popup">
     <div id='product-popup1' class="product-popup__wrapper">
-        <div class="main"><h3>Мотор-редуктор 3МП-25, 4МП-25</h3><b>Цена:</b> <span class="price">от 4 000 грн</span>
-            <span class="sale">4 500 грн</span></div>
+        <div class="main"><h3>Мотор-редуктор 3МП-25, 4МП-25</h3><b>Цена:</b> <span class="price">от 5 700 грн</span>
+            <span class="sale">6 200 грн</span></div>
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">H 3</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-25, 4МП-25</td>
-                            <td>3,55…16</td>
-                            <td>397</td>
-                            <td>150</td>
-                            <td>160</td>
-                            <td rowspan="3">63</td>
-                            <td rowspan="3">110</td>
-                            <td rowspan="3">120</td>
-                            <td rowspan="3">150</td>
-                            <td rowspan="3">80</td>
-                            <td rowspan="3">12</td>
-                            <td></td>
-                            <td rowspan="3">12</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>417</td>
-                            <td>160</td>
-                            <td>171</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>478</td>
-                            <td>200</td>
-                            <td>205</td>
-                            <td>20</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-25, 4МП-25</td>
-                            <td>3,55…16</td>
-                            <td>397</td>
-                            <td>150</td>
-                            <td rowspan="3">4</td>
-                            <td rowspan="3">10</td>
-                            <td rowspan="3">50</td>
-                            <td rowspan="3">155</td>
-                            <td rowspan="3">110</td>
-                            <td rowspan="3">130</td>
-                            <td rowspan="3">12</td>
-                            <td rowspan="3">4</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>417</td>
-                            <td>160</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>478</td>
-                            <td>200</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch3.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-25, 4МП-25</td>
-                            <td>25k6</td>
-                            <td>42</td>
-                            <td>8</td>
-                            <td>28</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod1.png" alt="">
                 </div>
-                <div class="with_table">
+                 <div class="with_table">
                     <table class="tech-table">
                         <tr class="tech-table__title">
                             <td colspan="6">Мотор-редукторы 3МП/4МП-25 (трехступенчатые)</td>
@@ -1095,16 +990,133 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">H 3</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-25, 4МП-25</td>
+                            <td>3,55…16</td>
+                            <td>397</td>
+                            <td>150</td>
+                            <td>160</td>
+                            <td rowspan="3">63</td>
+                            <td rowspan="3">110</td>
+                            <td rowspan="3">120</td>
+                            <td rowspan="3">150</td>
+                            <td rowspan="3">80</td>
+                            <td rowspan="3">12</td>
+                            <td></td>
+                            <td rowspan="3">12</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>417</td>
+                            <td>160</td>
+                            <td>171</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>478</td>
+                            <td>200</td>
+                            <td>205</td>
+                            <td>20</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-25, 4МП-25</td>
+                            <td>3,55…16</td>
+                            <td>397</td>
+                            <td>150</td>
+                            <td rowspan="3">4</td>
+                            <td rowspan="3">10</td>
+                            <td rowspan="3">50</td>
+                            <td rowspan="3">155</td>
+                            <td rowspan="3">110</td>
+                            <td rowspan="3">130</td>
+                            <td rowspan="3">12</td>
+                            <td rowspan="3">4</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>417</td>
+                            <td>160</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>478</td>
+                            <td>200</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch3.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-25, 4МП-25</td>
+                            <td>25k6</td>
+                            <td>42</td>
+                            <td>8</td>
+                            <td>28</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true, "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod1.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch3.jpg" alt="">
-                <img class="" src="../../images/products/prod1.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -1163,129 +1175,12 @@
     </div>
 
     <div id='product-popup2' class="product-popup__wrapper">
-        <div class="main"><h3>Мотор-редуктор 3МП-31,5, 4МП-31,5</h3><b>Цена:</b> <span class="price">от 4 400 грн</span>
-            <span class="sale">5 000 грн</span></div>
+        <div class="main"><h3>Мотор-редуктор 3МП-31,5, 4МП-31,5</h3><b>Цена:</b> <span class="price">от 6 400 грн</span>
+            <span class="sale">7 000 грн</span></div>
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{ "arrows":false, "asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">H 3</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-31,5, 4МП-31,5</td>
-                            <td>3,55…16</td>
-                            <td>460</td>
-                            <td>190</td>
-                            <td>215</td>
-                            <td rowspan="3">86</td>
-                            <td rowspan="3">130</td>
-                            <td rowspan="3">155</td>
-                            <td rowspan="3">190</td>
-                            <td rowspan="3">100</td>
-                            <td rowspan="3">15</td>
-                            <td></td>
-                            <td rowspan="3">15</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>510</td>
-                            <td>200</td>
-                            <td>225</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>590</td>
-                            <td>250</td>
-                            <td>247</td>
-                            <td>25</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-31,5, 4МП-31,5</td>
-                            <td>3,55…16</td>
-                            <td>460</td>
-                            <td>190</td>
-                            <td rowspan="3">5</td>
-                            <td rowspan="3">12</td>
-                            <td rowspan="3">68</td>
-                            <td rowspan="3">180</td>
-                            <td rowspan="3">130</td>
-                            <td rowspan="3">155</td>
-                            <td rowspan="3">12</td>
-                            <td rowspan="3">6</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>510</td>
-                            <td>200</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>590</td>
-                            <td>250</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch3.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-31,5</td>
-                            <td>28k6</td>
-                            <td>60</td>
-                            <td>8</td>
-                            <td>31</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod2.png" alt="">
                 </div>
                 <div class="with_table">
@@ -1579,16 +1474,133 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">H 3</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-31,5, 4МП-31,5</td>
+                            <td>3,55…16</td>
+                            <td>460</td>
+                            <td>190</td>
+                            <td>215</td>
+                            <td rowspan="3">86</td>
+                            <td rowspan="3">130</td>
+                            <td rowspan="3">155</td>
+                            <td rowspan="3">190</td>
+                            <td rowspan="3">100</td>
+                            <td rowspan="3">15</td>
+                            <td></td>
+                            <td rowspan="3">15</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>510</td>
+                            <td>200</td>
+                            <td>225</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>590</td>
+                            <td>250</td>
+                            <td>247</td>
+                            <td>25</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-31,5, 4МП-31,5</td>
+                            <td>3,55…16</td>
+                            <td>460</td>
+                            <td>190</td>
+                            <td rowspan="3">5</td>
+                            <td rowspan="3">12</td>
+                            <td rowspan="3">68</td>
+                            <td rowspan="3">180</td>
+                            <td rowspan="3">130</td>
+                            <td rowspan="3">155</td>
+                            <td rowspan="3">12</td>
+                            <td rowspan="3">6</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>510</td>
+                            <td>200</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>590</td>
+                            <td>250</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch3.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-31,5</td>
+                            <td>28k6</td>
+                            <td>60</td>
+                            <td>8</td>
+                            <td>31</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod2.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch3.jpg" alt="">
-                <img class="" src="../../images/products/prod2.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -1647,129 +1659,12 @@
     </div>
 
     <div id='product-popup3' class="product-popup__wrapper">
-        <div class="main"><h3>Мотор-редуктор 3МП-40, 4МП-40</h3><b>Цена:</b> <span class="price">от 5 300 грн</span>
-            <span class="sale">6 000 грн</span></div>
+        <div class="main"><h3>Мотор-редуктор 3МП-40, 4МП-40</h3><b>Цена:</b> <span class="price">от 7 600 грн</span>
+            <span class="sale">8 200 грн</span></div>
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">H 3</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-40, 4МП-40</td>
-                            <td>3,55…16</td>
-                            <td>500</td>
-                            <td>224</td>
-                            <td>247</td>
-                            <td rowspan="3">110</td>
-                            <td rowspan="3">170</td>
-                            <td rowspan="3">180</td>
-                            <td rowspan="3">220</td>
-                            <td rowspan="3">112</td>
-                            <td rowspan="3">22</td>
-                            <td></td>
-                            <td rowspan="3">20</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>625</td>
-                            <td>250</td>
-                            <td>247</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>725</td>
-                            <td>350</td>
-                            <td>305</td>
-                            <td>63</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-40, 4МП-40</td>
-                            <td>3,55…16</td>
-                            <td>500</td>
-                            <td>224</td>
-                            <td rowspan="3">6</td>
-                            <td rowspan="3">16</td>
-                            <td rowspan="3">90</td>
-                            <td rowspan="3">200</td>
-                            <td rowspan="3">130</td>
-                            <td rowspan="3">165</td>
-                            <td rowspan="3">15</td>
-                            <td rowspan="3">6</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>625</td>
-                            <td>250</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>725</td>
-                            <td>350</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch3.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-40, 4МП-40</td>
-                            <td>35k6</td>
-                            <td>80</td>
-                            <td>10</td>
-                            <td>38</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod3.png" alt="">
                 </div>
                 <div class="with_table">
@@ -2063,16 +1958,133 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">H 3</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-40, 4МП-40</td>
+                            <td>3,55…16</td>
+                            <td>500</td>
+                            <td>224</td>
+                            <td>247</td>
+                            <td rowspan="3">110</td>
+                            <td rowspan="3">170</td>
+                            <td rowspan="3">180</td>
+                            <td rowspan="3">220</td>
+                            <td rowspan="3">112</td>
+                            <td rowspan="3">22</td>
+                            <td></td>
+                            <td rowspan="3">20</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>625</td>
+                            <td>250</td>
+                            <td>247</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>725</td>
+                            <td>350</td>
+                            <td>305</td>
+                            <td>63</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-40, 4МП-40</td>
+                            <td>3,55…16</td>
+                            <td>500</td>
+                            <td>224</td>
+                            <td rowspan="3">6</td>
+                            <td rowspan="3">16</td>
+                            <td rowspan="3">90</td>
+                            <td rowspan="3">200</td>
+                            <td rowspan="3">130</td>
+                            <td rowspan="3">165</td>
+                            <td rowspan="3">15</td>
+                            <td rowspan="3">6</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>625</td>
+                            <td>250</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>725</td>
+                            <td>350</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch3.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-40, 4МП-40</td>
+                            <td>35k6</td>
+                            <td>80</td>
+                            <td>10</td>
+                            <td>38</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod3.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch3.jpg" alt="">
-                <img class="" src="../../images/products/prod3.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -2131,129 +2143,12 @@
     </div>
 
     <div id='product-popup4' class="product-popup__wrapper">
-        <div class="main"><h3>Мотор-редукторы планетарные ЗМП-50, 4МП-50</h3><b>Цена:</b> <span class="price">от 6 900 грн</span>
-            <span class="sale">8 300 грн</span></div>
+        <div class="main"><h3>Мотор-редукторы планетарные ЗМП-50, 4МП-50</h3><b>Цена:</b> <span class="price">от 10 300 грн</span>
+            <span class="sale">11 000 грн</span></div>
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">H 3</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-50, 4МП-50</td>
-                            <td>3,55…16</td>
-                            <td>637</td>
-                            <td>270</td>
-                            <td>295</td>
-                            <td rowspan="3">145</td>
-                            <td rowspan="3">210</td>
-                            <td rowspan="3">220</td>
-                            <td rowspan="3">266</td>
-                            <td rowspan="3">132</td>
-                            <td rowspan="3">22</td>
-                            <td></td>
-                            <td rowspan="3">22</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>682</td>
-                            <td>270</td>
-                            <td>295</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>925</td>
-                            <td>350</td>
-                            <td>360</td>
-                            <td>43</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-50, 4МП-50</td>
-                            <td>3,55…16</td>
-                            <td>637</td>
-                            <td>270</td>
-                            <td rowspan="3">8</td>
-                            <td rowspan="3">18</td>
-                            <td rowspan="3">124</td>
-                            <td rowspan="3">250</td>
-                            <td rowspan="3">180</td>
-                            <td rowspan="3">215</td>
-                            <td rowspan="3">17</td>
-                            <td rowspan="3">6</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>682</td>
-                            <td>270</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>925</td>
-                            <td>350</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch4.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-50, 4МП-50</td>
-                            <td>45k6</td>
-                            <td>110</td>
-                            <td>14</td>
-                            <td>48.5</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod4.png" alt="">
                 </div>
                 <div class="with_table">
@@ -2589,16 +2484,133 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">H 3</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-50, 4МП-50</td>
+                            <td>3,55…16</td>
+                            <td>637</td>
+                            <td>270</td>
+                            <td>295</td>
+                            <td rowspan="3">145</td>
+                            <td rowspan="3">210</td>
+                            <td rowspan="3">220</td>
+                            <td rowspan="3">266</td>
+                            <td rowspan="3">132</td>
+                            <td rowspan="3">22</td>
+                            <td></td>
+                            <td rowspan="3">22</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>682</td>
+                            <td>270</td>
+                            <td>295</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>925</td>
+                            <td>350</td>
+                            <td>360</td>
+                            <td>43</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-50, 4МП-50</td>
+                            <td>3,55…16</td>
+                            <td>637</td>
+                            <td>270</td>
+                            <td rowspan="3">8</td>
+                            <td rowspan="3">18</td>
+                            <td rowspan="3">124</td>
+                            <td rowspan="3">250</td>
+                            <td rowspan="3">180</td>
+                            <td rowspan="3">215</td>
+                            <td rowspan="3">17</td>
+                            <td rowspan="3">6</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>682</td>
+                            <td>270</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>925</td>
+                            <td>350</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch4.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-50, 4МП-50</td>
+                            <td>45k6</td>
+                            <td>110</td>
+                            <td>14</td>
+                            <td>48.5</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod4.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch4.jpg" alt="">
-                <img class="" src="../../images/products/prod4.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -2657,126 +2669,12 @@
     </div>
 
     <div id='product-popup5' class="product-popup__wrapper">
-        <div class="main"><h3>Мотор-редукторы планетарные 3МП-63, 4МП-63</h3><b>Цена:</b> <span class="price">от 17 400 грн</span>
-            <span class="sale">20 000 грн</span></div>
+        <div class="main"><h3>Мотор-редукторы планетарные 3МП-63, 4МП-63</h3><b>Цена:</b> <span class="price">от 24 030 грн</span>
+            <span class="sale">24 900 грн</span></div>
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-63, 4МП-63</td>
-                            <td>3,55…16</td>
-                            <td>652</td>
-                            <td>350</td>
-                            <td>345</td>
-                            <td rowspan="3">147</td>
-                            <td rowspan="3">230</td>
-                            <td rowspan="3">260</td>
-                            <td rowspan="3">325</td>
-                            <td rowspan="3">160</td>
-                            <td rowspan="3">32</td>
-                            <td rowspan="3">24</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>741</td>
-                            <td>350</td>
-                            <td>345</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>960</td>
-                            <td>400</td>
-                            <td>440</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-63, 4МП-63</td>
-                            <td>3,55…16</td>
-                            <td>652</td>
-                            <td>350</td>
-                            <td rowspan="3">8</td>
-                            <td rowspan="3">20</td>
-                            <td rowspan="3">124</td>
-                            <td rowspan="3">300</td>
-                            <td rowspan="3">230</td>
-                            <td rowspan="3">265</td>
-                            <td rowspan="3">19</td>
-                            <td rowspan="3">6</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>741</td>
-                            <td>350</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>960</td>
-                            <td>400</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch4.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-63, 4МП-63</td>
-                            <td>55k6</td>
-                            <td>110</td>
-                            <td>16</td>
-                            <td>59</td>
-                        </tr>
-                        >
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod5.png" alt="">
                 </div>
                 <div class="with_table">
@@ -3104,16 +3002,130 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-63, 4МП-63</td>
+                            <td>3,55…16</td>
+                            <td>652</td>
+                            <td>350</td>
+                            <td>345</td>
+                            <td rowspan="3">147</td>
+                            <td rowspan="3">230</td>
+                            <td rowspan="3">260</td>
+                            <td rowspan="3">325</td>
+                            <td rowspan="3">160</td>
+                            <td rowspan="3">32</td>
+                            <td rowspan="3">24</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>741</td>
+                            <td>350</td>
+                            <td>345</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>960</td>
+                            <td>400</td>
+                            <td>440</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-63, 4МП-63</td>
+                            <td>3,55…16</td>
+                            <td>652</td>
+                            <td>350</td>
+                            <td rowspan="3">8</td>
+                            <td rowspan="3">20</td>
+                            <td rowspan="3">124</td>
+                            <td rowspan="3">300</td>
+                            <td rowspan="3">230</td>
+                            <td rowspan="3">265</td>
+                            <td rowspan="3">19</td>
+                            <td rowspan="3">6</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>741</td>
+                            <td>350</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>960</td>
+                            <td>400</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch4.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-63, 4МП-63</td>
+                            <td>55k6</td>
+                            <td>110</td>
+                            <td>16</td>
+                            <td>59</td>
+                        </tr>
+                        >
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod5.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch4.jpg" alt="">
-                <img class="" src="../../images/products/prod5.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -3177,124 +3189,7 @@
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">H 3</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-80, 4МП-80</td>
-                            <td>3,55…16</td>
-                            <td>810</td>
-                            <td>380</td>
-                            <td>400</td>
-                            <td rowspan="3">175</td>
-                            <td rowspan="3">325</td>
-                            <td rowspan="3">320</td>
-                            <td rowspan="3">380</td>
-                            <td rowspan="3">200</td>
-                            <td rowspan="3">40</td>
-                            <td></td>
-                            <td rowspan="3">35</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>915</td>
-                            <td>380</td>
-                            <td>420</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>1240</td>
-                            <td>550</td>
-                            <td>510</td>
-                            <td>75</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-80, 4МП-80</td>
-                            <td>3,55…16</td>
-                            <td>810</td>
-                            <td>400</td>
-                            <td rowspan="3">10</td>
-                            <td rowspan="3">22</td>
-                            <td rowspan="3">152</td>
-                            <td rowspan="3">400</td>
-                            <td rowspan="3">320</td>
-                            <td rowspan="3">350</td>
-                            <td rowspan="3">22</td>
-                            <td rowspan="3">6</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>915</td>
-                            <td>400</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>1240</td>
-                            <td>550</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch4.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-80, 4МП-80</td>
-                            <td>70k6</td>
-                            <td>140</td>
-                            <td>20</td>
-                            <td>74.5</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod6.png" alt="">
                 </div>
                 <div class="with_table">
@@ -3636,16 +3531,133 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">H 3</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-80, 4МП-80</td>
+                            <td>3,55…16</td>
+                            <td>810</td>
+                            <td>380</td>
+                            <td>400</td>
+                            <td rowspan="3">175</td>
+                            <td rowspan="3">325</td>
+                            <td rowspan="3">320</td>
+                            <td rowspan="3">380</td>
+                            <td rowspan="3">200</td>
+                            <td rowspan="3">40</td>
+                            <td></td>
+                            <td rowspan="3">35</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>915</td>
+                            <td>380</td>
+                            <td>420</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>1240</td>
+                            <td>550</td>
+                            <td>510</td>
+                            <td>75</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-80, 4МП-80</td>
+                            <td>3,55…16</td>
+                            <td>810</td>
+                            <td>400</td>
+                            <td rowspan="3">10</td>
+                            <td rowspan="3">22</td>
+                            <td rowspan="3">152</td>
+                            <td rowspan="3">400</td>
+                            <td rowspan="3">320</td>
+                            <td rowspan="3">350</td>
+                            <td rowspan="3">22</td>
+                            <td rowspan="3">6</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>915</td>
+                            <td>400</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>1240</td>
+                            <td>550</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch4.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-80, 4МП-80</td>
+                            <td>70k6</td>
+                            <td>140</td>
+                            <td>20</td>
+                            <td>74.5</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod6.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch4.jpg" alt="">
-                <img class="" src="../../images/products/prod6.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -3708,124 +3720,7 @@
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">H 3</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-100, 4МП-100</td>
-                            <td>3,55…16</td>
-                            <td>850</td>
-                            <td>415</td>
-                            <td>420</td>
-                            <td rowspan="3">200</td>
-                            <td rowspan="3">340</td>
-                            <td rowspan="3">340</td>
-                            <td rowspan="3">415</td>
-                            <td rowspan="3">235</td>
-                            <td rowspan="3">40</td>
-                            <td></td>
-                            <td rowspan="3">35</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>1080</td>
-                            <td>415</td>
-                            <td>485</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>1305</td>
-                            <td>550</td>
-                            <td>570</td>
-                            <td>40</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-100, 4МП-100</td>
-                            <td>3,55…16</td>
-                            <td>850</td>
-                            <td>500</td>
-                            <td rowspan="3">14</td>
-                            <td rowspan="3">28</td>
-                            <td rowspan="3">180</td>
-                            <td rowspan="3">500</td>
-                            <td rowspan="3">400</td>
-                            <td rowspan="3">450</td>
-                            <td rowspan="3">22</td>
-                            <td rowspan="3">8</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>1080</td>
-                            <td>500</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>1305</td>
-                            <td>550</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch3.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-100</td>
-                            <td>80k6</td>
-                            <td>160</td>
-                            <td>22</td>
-                            <td>85</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod1.png" alt="">
                 </div>
                 <div class="with_table">
@@ -4153,16 +4048,133 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">H 3</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-100, 4МП-100</td>
+                            <td>3,55…16</td>
+                            <td>850</td>
+                            <td>415</td>
+                            <td>420</td>
+                            <td rowspan="3">200</td>
+                            <td rowspan="3">340</td>
+                            <td rowspan="3">340</td>
+                            <td rowspan="3">415</td>
+                            <td rowspan="3">235</td>
+                            <td rowspan="3">40</td>
+                            <td></td>
+                            <td rowspan="3">35</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>1080</td>
+                            <td>415</td>
+                            <td>485</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>1305</td>
+                            <td>550</td>
+                            <td>570</td>
+                            <td>40</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-100, 4МП-100</td>
+                            <td>3,55…16</td>
+                            <td>850</td>
+                            <td>500</td>
+                            <td rowspan="3">14</td>
+                            <td rowspan="3">28</td>
+                            <td rowspan="3">180</td>
+                            <td rowspan="3">500</td>
+                            <td rowspan="3">400</td>
+                            <td rowspan="3">450</td>
+                            <td rowspan="3">22</td>
+                            <td rowspan="3">8</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>1080</td>
+                            <td>500</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>1305</td>
+                            <td>550</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch3.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-100</td>
+                            <td>80k6</td>
+                            <td>160</td>
+                            <td>22</td>
+                            <td>85</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod1.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch3.jpg" alt="">
-                <img class="" src="../../images/products/prod1.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -4229,124 +4241,7 @@
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
-                <div class="with_table">
-                    <img class="" src="../../images/ch1.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td>H</td>
-                            <td rowspan="2">L 1</td>
-                            <td rowspan="2">L 2</td>
-                            <td rowspan="2">B 1</td>
-                            <td rowspan="2">B 2</td>
-                            <td rowspan="2">H 1</td>
-                            <td rowspan="2">H 2</td>
-                            <td rowspan="2">H 3</td>
-                            <td rowspan="2">d1</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-125, 4МП-125</td>
-                            <td>3,55…16</td>
-                            <td>1070</td>
-                            <td>500</td>
-                            <td>540</td>
-                            <td rowspan="3">270</td>
-                            <td rowspan="3">380</td>
-                            <td rowspan="3">400</td>
-                            <td rowspan="3">500</td>
-                            <td rowspan="3">275</td>
-                            <td rowspan="3">50</td>
-                            <td></td>
-                            <td rowspan="3">42</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>1360</td>
-                            <td>535</td>
-                            <td>570</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>1415</td>
-                            <td>590</td>
-                            <td>630</td>
-                            <td>20</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch2.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
-                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
-                            <td>L</td>
-                            <td>B</td>
-                            <td rowspan="2">L 3</td>
-                            <td rowspan="2">L 4</td>
-                            <td rowspan="2">L 5</td>
-                            <td rowspan="2">D</td>
-                            <td rowspan="2">D 1</td>
-                            <td rowspan="2">D 2</td>
-                            <td rowspan="2">d2</td>
-                            <td rowspan="2">n</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Не более</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">3МП-125, 4МП-125</td>
-                            <td>3,55…16</td>
-                            <td>1070</td>
-                            <td>600</td>
-                            <td rowspan="3">18</td>
-                            <td rowspan="3">35</td>
-                            <td rowspan="3">245</td>
-                            <td rowspan="3">600</td>
-                            <td rowspan="3">480</td>
-                            <td rowspan="3">540</td>
-                            <td rowspan="3">26</td>
-                            <td rowspan="3">8</td>
-                        </tr>
-                        <tr>
-                            <td>18…90</td>
-                            <td>1360</td>
-                            <td>600</td>
-                        </tr>
-                        <tr>
-                            <td>112…280</td>
-                            <td>1415</td>
-                            <td>600</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <img class="" src="../../images/ch3.jpg" alt="">
-                    <table>
-                        <tr>
-                            <td><b>Мотор-редуктор</b></td>
-                            <td><b>d</b></td>
-                            <td><b>l</b></td>
-                            <td><b>b</b></td>
-                            <td><b>t</b></td>
-                        </tr>
-                        <tr>
-                            <td>3МП-125</td>
-                            <td>110k6</td>
-                            <td>220</td>
-                            <td>28</td>
-                            <td>116</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main-image">
+                 <div class="main-image">
                     <img class="" src="../../images/products/prod3.png" alt="">
                 </div>
                 <div class="with_table">
@@ -4688,16 +4583,133 @@
                         </tr>
                     </table>
                 </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td>H</td>
+                            <td rowspan="2">L 1</td>
+                            <td rowspan="2">L 2</td>
+                            <td rowspan="2">B 1</td>
+                            <td rowspan="2">B 2</td>
+                            <td rowspan="2">H 1</td>
+                            <td rowspan="2">H 2</td>
+                            <td rowspan="2">H 3</td>
+                            <td rowspan="2">d1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-125, 4МП-125</td>
+                            <td>3,55…16</td>
+                            <td>1070</td>
+                            <td>500</td>
+                            <td>540</td>
+                            <td rowspan="3">270</td>
+                            <td rowspan="3">380</td>
+                            <td rowspan="3">400</td>
+                            <td rowspan="3">500</td>
+                            <td rowspan="3">275</td>
+                            <td rowspan="3">50</td>
+                            <td></td>
+                            <td rowspan="3">42</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>1360</td>
+                            <td>535</td>
+                            <td>570</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>1415</td>
+                            <td>590</td>
+                            <td>630</td>
+                            <td>20</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch2.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td rowspan="2">Обозначение<br> мотор-редуктора</td>
+                            <td rowspan="2">Частота вращения<br> выходного вала, об/мин</td>
+                            <td>L</td>
+                            <td>B</td>
+                            <td rowspan="2">L 3</td>
+                            <td rowspan="2">L 4</td>
+                            <td rowspan="2">L 5</td>
+                            <td rowspan="2">D</td>
+                            <td rowspan="2">D 1</td>
+                            <td rowspan="2">D 2</td>
+                            <td rowspan="2">d2</td>
+                            <td rowspan="2">n</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Не более</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3МП-125, 4МП-125</td>
+                            <td>3,55…16</td>
+                            <td>1070</td>
+                            <td>600</td>
+                            <td rowspan="3">18</td>
+                            <td rowspan="3">35</td>
+                            <td rowspan="3">245</td>
+                            <td rowspan="3">600</td>
+                            <td rowspan="3">480</td>
+                            <td rowspan="3">540</td>
+                            <td rowspan="3">26</td>
+                            <td rowspan="3">8</td>
+                        </tr>
+                        <tr>
+                            <td>18…90</td>
+                            <td>1360</td>
+                            <td>600</td>
+                        </tr>
+                        <tr>
+                            <td>112…280</td>
+                            <td>1415</td>
+                            <td>600</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <img class="" src="../../images/ch3.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td><b>Мотор-редуктор</b></td>
+                            <td><b>d</b></td>
+                            <td><b>l</b></td>
+                            <td><b>b</b></td>
+                            <td><b>t</b></td>
+                        </tr>
+                        <tr>
+                            <td>3МП-125</td>
+                            <td>110k6</td>
+                            <td>220</td>
+                            <td>28</td>
+                            <td>116</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod3.png" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch911.jpg" alt="">
                 <img class="" src="../../images/ch1.jpg" alt="">
                 <img class="" src="../../images/ch2.jpg" alt="">
                 <img class="" src="../../images/ch3.jpg" alt="">
-                <img class="" src="../../images/products/prod3.png" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch911.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -4756,11 +4768,498 @@
     </div>
 
     <div id='product-popup9' class="product-popup__wrapper">
-        <div class="main"><h3>Мотор-редуктор планетарный МР</h3><b>Цена:</b> <span class="price">от 16 000 грн</span>
-            <span class="sale">20 000 грн</span></div>
+        <div class="main"><h3>Мотор-редуктор планетарный МР</h3><b>Цена:</b> <span class="price">от 54 720 грн</span>
+            <span class="sale">55 500 грн</span></div>
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
+                 <div class="main-image">
+                    <img class="" src="../../images/products/prod9.jpg" alt="">
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МР1-315</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">100</td>
+                            <td>1018</td>
+                            <td>11</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>1712</td>
+                            <td>18,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">125</td>
+                            <td>1110</td>
+                            <td>15</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>1629</td>
+                            <td>22</td>
+                        </tr>
+                         <tr class="one-row1">
+                            <td rowspan="3">160</td>
+                            <td>867</td>
+                            <td>15</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>1070</td>
+                            <td>18,5</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>1735</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">200</td>
+                            <td>856</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>1712</td>
+                            <td>37</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">250</td>
+                            <td>685</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>1110</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>1666</td>
+                            <td>45</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">315</td>
+                            <td>685</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>881</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>1322</td>
+                            <td>45</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МР2-315</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">25</td>
+                            <td>4071</td>
+                            <td>11</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>6847</td>
+                            <td>18,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">32</td>
+                            <td>4337</td>
+                            <td>15</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>6361</td>
+                            <td>22</td>
+                        </tr>
+                         <tr class="one-row">
+                            <td rowspan="3">40</td>
+                            <td>3470</td>
+                            <td>15</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>4280</td>
+                            <td>18,5</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>6940</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">50</td>
+                            <td>3424</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>6847</td>
+                            <td>37</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">64</td>
+                            <td>2675</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>4337</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>6506</td>
+                            <td>45</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">80</td>
+                            <td>2140</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>3470</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>5205</td>
+                            <td>45</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МР3-315</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">6,3</td>
+                            <td>4313</td>
+                            <td>3</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>7908</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">8</td>
+                            <td>4529</td>
+                            <td>4</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>8492</td>
+                            <td>7,5</td>
+                        </tr>
+                         <tr class="one-row1">
+                            <td rowspan="3">10</td>
+                            <td>3623</td>
+                            <td>4</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>4982</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>6794</td>
+                            <td>7,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">12,5</td>
+                            <td>3986</td>
+                            <td>5,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>7971</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">16</td>
+                            <td>4246</td>
+                            <td>7,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>6228</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>8492</td>
+                            <td>15</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">20</td>
+                            <td>3397</td>
+                            <td>7,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>4982</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>6794</td>
+                            <td>15</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МР1-500</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">80</td>
+                            <td>4280</td>
+                            <td>37</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>5205</td>
+                            <td>45</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">100</td>
+                            <td>3424</td>
+                            <td>37</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>5089</td>
+                            <td>55</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>6940</td>
+                            <td>75</td>
+                        </tr>
+                         <tr class="one-row1">
+                            <td rowspan="2">125</td>
+                            <td>4071</td>
+                            <td>55</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>5552</td>
+                            <td>75</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">160</td>
+                            <td>3181</td>
+                            <td>55</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>4337</td>
+                            <td>75</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">200</td>
+                            <td>2545</td>
+                            <td>55</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>4164</td>
+                            <td>90</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">250</td>
+                            <td>2036</td>
+                            <td>55</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>3331</td>
+                            <td>90</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>4071</td>
+                            <td>110</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">315</td>
+                            <td>2545</td>
+                            <td>90</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>3877</td>
+                            <td>132</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МР2-500</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>16</td>
+                            <td>17349</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>20</td>
+                            <td>17118</td>
+                            <td>37</td>
+                        </tr>
+                         <tr class="one-row1">
+                            <td>25</td>
+                            <td>13694</td>
+                            <td>37</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">32</td>
+                            <td>8675</td>
+                            <td>30</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>15904</td>
+                            <td>55</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">40</td>
+                            <td>6940</td>
+                            <td>30</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>12723</td>
+                            <td>55</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>17349</td>
+                            <td>75</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">50</td>
+                            <td>5552</td>
+                            <td>30</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>10178</td>
+                            <td>55</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>16655</td>
+                            <td>90</td>
+                        </tr>
+                        <tr class="one-row">
+                            <td rowspan="3">64</td>
+                            <td>7952</td>
+                            <td>55</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>13012</td>
+                            <td>90</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>15904</td>
+                            <td>110</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">80</td>
+                            <td>10410</td>
+                            <td>90</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>15267</td>
+                            <td>132</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МР3-500</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>5</td>
+                            <td>19928</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">6,3</td>
+                            <td>15816</td>
+                            <td>11</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>26599</td>
+                            <td>18,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">8</td>
+                            <td>16984</td>
+                            <td>15</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>24910</td>
+                            <td>22</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">10</td>
+                            <td>13587</td>
+                            <td>15</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>16758</td>
+                            <td>18,5</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>27175</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">12,5</td>
+                            <td>13406</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>26812</td>
+                            <td>37</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">16</td>
+                            <td>10474</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>16984</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>25476</td>
+                            <td>45</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">20</td>
+                            <td>8379</td>
+                            <td>18,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>13587</td>
+                            <td>30</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>20381</td>
+                            <td>45</td>
+                        </tr>
+                    </table>
+                </div>
                 <div class="with_table">
                     <img class="" src="../../images/ch5.jpg" alt="">
                     <table>
@@ -5408,507 +5907,20 @@
                         </tr>
                     </table>
                 </div>
-                <div class="main-image">
-                    <img class="" src="../../images/products/prod9.jpg" alt="">
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МР1-315</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">100</td>
-                            <td>1018</td>
-                            <td>11</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>1712</td>
-                            <td>18,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">125</td>
-                            <td>1110</td>
-                            <td>15</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>1629</td>
-                            <td>22</td>
-                        </tr>
-                         <tr class="one-row1">
-                            <td rowspan="3">160</td>
-                            <td>867</td>
-                            <td>15</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>1070</td>
-                            <td>18,5</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>1735</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">200</td>
-                            <td>856</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>1712</td>
-                            <td>37</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">250</td>
-                            <td>685</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>1110</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>1666</td>
-                            <td>45</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">315</td>
-                            <td>685</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>881</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>1322</td>
-                            <td>45</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МР2-315</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">25</td>
-                            <td>4071</td>
-                            <td>11</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>6847</td>
-                            <td>18,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">32</td>
-                            <td>4337</td>
-                            <td>15</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>6361</td>
-                            <td>22</td>
-                        </tr>
-                         <tr class="one-row">
-                            <td rowspan="3">40</td>
-                            <td>3470</td>
-                            <td>15</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>4280</td>
-                            <td>18,5</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>6940</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">50</td>
-                            <td>3424</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>6847</td>
-                            <td>37</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">64</td>
-                            <td>2675</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>4337</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>6506</td>
-                            <td>45</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">80</td>
-                            <td>2140</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>3470</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>5205</td>
-                            <td>45</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МР3-315</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">6,3</td>
-                            <td>4313</td>
-                            <td>3</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>7908</td>
-                            <td>5,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">8</td>
-                            <td>4529</td>
-                            <td>4</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>8492</td>
-                            <td>7,5</td>
-                        </tr>
-                         <tr class="one-row1">
-                            <td rowspan="3">10</td>
-                            <td>3623</td>
-                            <td>4</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>4982</td>
-                            <td>5,5</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>6794</td>
-                            <td>7,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">12,5</td>
-                            <td>3986</td>
-                            <td>5,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>7971</td>
-                            <td>11</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">16</td>
-                            <td>4246</td>
-                            <td>7,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>6228</td>
-                            <td>11</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>8492</td>
-                            <td>15</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">20</td>
-                            <td>3397</td>
-                            <td>7,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>4982</td>
-                            <td>11</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>6794</td>
-                            <td>15</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МР1-500</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">80</td>
-                            <td>4280</td>
-                            <td>37</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>5205</td>
-                            <td>45</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">100</td>
-                            <td>3424</td>
-                            <td>37</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>5089</td>
-                            <td>55</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>6940</td>
-                            <td>75</td>
-                        </tr>
-                         <tr class="one-row1">
-                            <td rowspan="2">125</td>
-                            <td>4071</td>
-                            <td>55</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>5552</td>
-                            <td>75</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">160</td>
-                            <td>3181</td>
-                            <td>55</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>4337</td>
-                            <td>75</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">200</td>
-                            <td>2545</td>
-                            <td>55</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>4164</td>
-                            <td>90</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">250</td>
-                            <td>2036</td>
-                            <td>55</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>3331</td>
-                            <td>90</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>4071</td>
-                            <td>110</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">315</td>
-                            <td>2545</td>
-                            <td>90</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>3877</td>
-                            <td>132</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МР2-500</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>16</td>
-                            <td>17349</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>20</td>
-                            <td>17118</td>
-                            <td>37</td>
-                        </tr>
-                         <tr class="one-row1">
-                            <td>25</td>
-                            <td>13694</td>
-                            <td>37</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">32</td>
-                            <td>8675</td>
-                            <td>30</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>15904</td>
-                            <td>55</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">40</td>
-                            <td>6940</td>
-                            <td>30</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>12723</td>
-                            <td>55</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>17349</td>
-                            <td>75</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">50</td>
-                            <td>5552</td>
-                            <td>30</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>10178</td>
-                            <td>55</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>16655</td>
-                            <td>90</td>
-                        </tr>
-                        <tr class="one-row">
-                            <td rowspan="3">64</td>
-                            <td>7952</td>
-                            <td>55</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>13012</td>
-                            <td>90</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>15904</td>
-                            <td>110</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">80</td>
-                            <td>10410</td>
-                            <td>90</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>15267</td>
-                            <td>132</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МР3-500</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>5</td>
-                            <td>19928</td>
-                            <td>11</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">6,3</td>
-                            <td>15816</td>
-                            <td>11</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>26599</td>
-                            <td>18,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">8</td>
-                            <td>16984</td>
-                            <td>15</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>24910</td>
-                            <td>22</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">10</td>
-                            <td>13587</td>
-                            <td>15</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>16758</td>
-                            <td>18,5</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>27175</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">12,5</td>
-                            <td>13406</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>26812</td>
-                            <td>37</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">16</td>
-                            <td>10474</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>16984</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>25476</td>
-                            <td>45</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">20</td>
-                            <td>8379</td>
-                            <td>18,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>13587</td>
-                            <td>30</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>20381</td>
-                            <td>45</td>
-                        </tr>
-                    </table>
-                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod9.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
+                 <img src="../../images/ch91.jpg" alt="">
                 <img class="" src="../../images/ch5.jpg" alt="">
                 <img class="" src="../../images/ch6.jpg" alt="">
                 <img class="" src="../../images/ch7.jpg" alt="">
                 <img class="" src="../../images/ch8.jpg" alt="">
-                <img class="" src="../../images/products/prod9.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
-                <img src="../../images/ch91.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">
@@ -5966,11 +5978,254 @@
     </div>
 
     <div id='product-popup10' class="product-popup__wrapper">
-        <div class="main"><h3>Мотор-редуктор планетарный МПО</h3><b>Цена:</b> <span class="price">от 9 000 грн</span>
-            <span class="sale">11 000 грн</span></div>
+        <div class="main"><h3>Мотор-редуктор планетарный МПО</h3><b>Цена:</b> <span class="price">от 15 840 грн</span>
+            <span class="sale">16 500 грн</span></div>
         <div class="product-popup__pic-wrapper">
             <div class="popup-slider slick-slider popup-slider-for1"
                  data-slick='{"arrows":false,"asNavFor": ".popup-slider-nav1"}'>
+                 <div class="main-image">
+                    <img class="" src="../../images/products/prod10.jpg" alt="">
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МПО1М-10</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">125</td>
+                            <td>113</td>
+                            <td>1,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>227</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">160</td>
+                            <td>89</td>
+                            <td>1,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>177</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>325</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">200</td>
+                            <td>71</td>
+                            <td>1,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>142</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>260</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="4">250</td>
+                            <td>57</td>
+                            <td>1,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>113</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>208</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr class="add-row fourth-row1">
+                            <td>283</td>
+                            <td>7,5</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МПО2М-10</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>6,3</td>
+                            <td>543</td>
+                            <td>0,37</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>16</td>
+                            <td>434</td>
+                            <td>0,75</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">20</td>
+                            <td>347</td>
+                            <td>0,75</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>694</td>
+                            <td>1,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">31,5</td>
+                            <td>220</td>
+                            <td>0,75</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>441</td>
+                            <td>1,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">50</td>
+                            <td>139</td>
+                            <td>0,75</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>278</td>
+                            <td>1,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>555</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>63</td>
+                            <td>441</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МПО2М-15</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>4,6</td>
+                            <td>1509</td>
+                            <td>0,75</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>6,7</td>
+                            <td>1036</td>
+                            <td>0,75</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>14</td>
+                            <td>991</td>
+                            <td>1,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>18</td>
+                            <td>1542</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>31</td>
+                            <td>1642</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="3">45</td>
+                            <td>1131</td>
+                            <td>5,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>1542</td>
+                            <td>7,5</td>
+                        </tr>
+                        <tr class="third-row1">
+                            <td>2262</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">59</td>
+                            <td>1176</td>
+                            <td>7,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>1725</td>
+                            <td>11</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="with_table">
+                    <table class="tech-table">
+                        <tr class="tech-table__title1">
+                            <td colspan="3">МОТОР-РЕДУКТОР МПО2М-18</td>
+                        </tr>
+                        <tr class="tech-table__subtitle1">
+                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
+                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
+                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>6,7</td>
+                            <td>2072</td>
+                            <td>1,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>15</td>
+                            <td>1851</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>18</td>
+                            <td>2827</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">22</td>
+                            <td>12313</td>
+                            <td>5,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>3154</td>
+                            <td>7,5</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">32</td>
+                            <td>2169</td>
+                            <td>7,5</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>3181</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td rowspan="2">49</td>
+                            <td>2077</td>
+                            <td>11</td>
+                        </tr>
+                         <tr class="add-row second-row1">
+                            <td>2833</td>
+                            <td>15</td>
+                        </tr>
+                        <tr class="one-row1">
+                            <td>64</td>
+                            <td>2169</td>
+                            <td>15</td>
+                        </tr>
+                    </table>
+                </div>
                 <div class="with_table">
                     <img class="" src="../../images/ch9.jpg" alt="">
                     <table>
@@ -6463,260 +6718,17 @@
 
                     </table>
                 </div>
-                <div class="main-image">
-                    <img class="" src="../../images/products/prod10.jpg" alt="">
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МПО1М-10</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">125</td>
-                            <td>113</td>
-                            <td>1,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>227</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">160</td>
-                            <td>89</td>
-                            <td>1,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>177</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>325</td>
-                            <td>5,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">200</td>
-                            <td>71</td>
-                            <td>1,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>142</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>260</td>
-                            <td>5,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="4">250</td>
-                            <td>57</td>
-                            <td>1,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>113</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>208</td>
-                            <td>5,5</td>
-                        </tr>
-                        <tr class="add-row fourth-row1">
-                            <td>283</td>
-                            <td>7,5</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МПО2М-10</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>6,3</td>
-                            <td>543</td>
-                            <td>0,37</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>16</td>
-                            <td>434</td>
-                            <td>0,75</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">20</td>
-                            <td>347</td>
-                            <td>0,75</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>694</td>
-                            <td>1,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">31,5</td>
-                            <td>220</td>
-                            <td>0,75</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>441</td>
-                            <td>1,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">50</td>
-                            <td>139</td>
-                            <td>0,75</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>278</td>
-                            <td>1,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>555</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>63</td>
-                            <td>441</td>
-                            <td>3</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МПО2М-15</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>4,6</td>
-                            <td>1509</td>
-                            <td>0,75</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>6,7</td>
-                            <td>1036</td>
-                            <td>0,75</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>14</td>
-                            <td>991</td>
-                            <td>1,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>18</td>
-                            <td>1542</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>31</td>
-                            <td>1642</td>
-                            <td>5,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="3">45</td>
-                            <td>1131</td>
-                            <td>5,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>1542</td>
-                            <td>7,5</td>
-                        </tr>
-                        <tr class="third-row1">
-                            <td>2262</td>
-                            <td>11</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">59</td>
-                            <td>1176</td>
-                            <td>7,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>1725</td>
-                            <td>11</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="with_table">
-                    <table class="tech-table">
-                        <tr class="tech-table__title1">
-                            <td colspan="3">МОТОР-РЕДУКТОР МПО2М-18</td>
-                        </tr>
-                        <tr class="tech-table__subtitle1">
-                            <td>Частота вращения<br> выходного вала, <span>n, об/мин</span> </td>
-                            <td>Номинальный крутящий<br> момент на выходном валу <span>Мкр, Н.м</span></td>
-                            <td>Мощность электродвигателя, <span>Р, Вт</span></td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>6,7</td>
-                            <td>2072</td>
-                            <td>1,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>15</td>
-                            <td>1851</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>18</td>
-                            <td>2827</td>
-                            <td>5,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">22</td>
-                            <td>12313</td>
-                            <td>5,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>3154</td>
-                            <td>7,5</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">32</td>
-                            <td>2169</td>
-                            <td>7,5</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>3181</td>
-                            <td>11</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td rowspan="2">49</td>
-                            <td>2077</td>
-                            <td>11</td>
-                        </tr>
-                         <tr class="add-row second-row1">
-                            <td>2833</td>
-                            <td>15</td>
-                        </tr>
-                        <tr class="one-row1">
-                            <td>64</td>
-                            <td>2169</td>
-                            <td>15</td>
-                        </tr>
-                    </table>
-                </div>
             </div>
             <div class="popup-nav slick-slider popup-slider-nav1"
                  data-slick='{"vertical": true,   "slidesToShow": 3, "asNavFor": ".popup-slider-for1", "centerMode": false, "focusOnSelect": true, "centerPadding": "0", "responsive": [ {"breakpoint": 992, "settings": {"vertical": false}} ]}'>
+                 <img class="" src="../../images/products/prod10.jpg" alt="">
+                 <img src="../../images/ch9111.jpg" alt="">
+                 <img src="../../images/ch9111.jpg" alt="">
+                 <img src="../../images/ch9111.jpg" alt="">
+                 <img src="../../images/ch9111.jpg" alt="">
                 <img class="" src="../../images/ch9.jpg" alt="">
                 <img class="" src="../../images/ch10.jpg" alt="">
                 <img class="" src="../../images/ch11.jpg" alt="">
-                <img class="" src="../../images/products/prod10.jpg" alt="">
-                <img src="../../images/ch9111.jpg" alt="">
-                <img src="../../images/ch9111.jpg" alt="">
-                <img src="../../images/ch9111.jpg" alt="">
-                <img src="../../images/ch9111.jpg" alt="">
             </div>
         </div>
         <div class="product-popup__info-wrapper">

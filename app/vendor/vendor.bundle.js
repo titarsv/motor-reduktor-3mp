@@ -19130,7 +19130,7 @@ var vendor_lib =
 	    var settings = {};
 
 	    settings.type = 'inline';
-	    if ($this.data('type') !== '') {
+	    if (typeof $this.data('type') !== 'undefined') {
 	      settings.type = $this.data('type');
 	    }
 
@@ -19141,10 +19141,21 @@ var vendor_lib =
 	        settings.callbacks = {
 	          open: function() {
 	            slider.slick();
-	          }
+	          },
+	          close: function() {
+	            history.pushState('', document.title, window.location.pathname + window.location.search);
+	          },
+	        };
+	      }
+	      else {
+	        settings.callbacks = {
+	          close: function() {
+	            history.pushState('', document.title, window.location.pathname + window.location.search);
+	          },
 	        };
 	      }
 	    }
+
 
 	    $this.magnificPopup(settings);
 	  });
